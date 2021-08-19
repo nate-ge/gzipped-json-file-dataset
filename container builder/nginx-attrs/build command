@@ -1,0 +1,1 @@
+docker run -d -p 90:80 --log-opt tag="{{.ImageName}}/{{.Name}}/{{.ID}}" --log-opt max-size=10m --log-opt max-file=5 --log-opt compress=true --name webserver2 nginx:1.19.2

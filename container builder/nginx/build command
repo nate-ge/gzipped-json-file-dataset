@@ -1,0 +1,1 @@
+docker run -d -p 80:80 --name webserver --log-opt max-size=10m --log-opt max-file=5 --log-opt compress=true nginx:1.19.2
